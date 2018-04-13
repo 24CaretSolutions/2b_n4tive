@@ -16,6 +16,8 @@
   },
   "plugins": ["react"],
   "rules": {
+    "import/no-unresolved": [2, { "ignore": ["~"] }],
+    "import/extensions": { "js": "never" },
     "react/jsx-filename-extension": "off"
   }
 }
