@@ -5,7 +5,7 @@
     "ecmaVersion": 2016,
     "sourceType": "module",
     "ecmaFeatures": {
-        "jsx": true
+      "jsx": true
     }
   },
   "env": {
@@ -14,10 +14,10 @@
     "node": true,
     "jest": true
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "rules": {
-      // overrides
+    "import/no-unresolved": [2, { "ignore": ["~"] }],
+    "import/extensions": { "js": "never" },
+    "react/jsx-filename-extension": "off"
   }
 }
