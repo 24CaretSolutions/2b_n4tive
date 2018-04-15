@@ -18,7 +18,6 @@
   "rules": {
     "import/no-unresolved": [2, { "ignore": ["~"] }],
     "import/extensions": { "js": "never" },
-    "react/jsx-filename-extension": "off",
-    "no-use-before-define": "off"
+    "react/jsx-filename-extension": "off"
   }
 }
